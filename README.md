@@ -36,3 +36,17 @@ Sigue estos pasos para construir y ejecutar la aplicación en un contenedor aisl
 Desde la raíz del proyecto (donde se encuentra el `Dockerfile`), ejecuta el siguiente comando para compilar la imagen:
 ```bash
 docker build -t lab03-agenda .
+```
+## 📸 Demostración de Funcionamiento
+
+### 1. Creación de Tareas
+Para probar el sistema, se crearon tres tareas de ejemplo mediante la interfaz web:
+![Creación de tareas](./img/creacion_tareas.png)
+
+### 2. Persistencia en el Servidor
+Se puede observar cómo Docker crea los archivos `.md` dentro de la carpeta `agenda/` automáticamente:
+![Archivos generados](./img/carpetas_agenda.png)
+
+### 3. Eliminación de Tareas
+Al presionar el botón de eliminar, el sistema borra los archivos físicos del contenedor:
+![Eliminación de tareas](./img/eliminacion_tareas.png)
