@@ -6,7 +6,7 @@ Este proyecto es una aplicación web de administración de eventos desarrollada 
 - **Arquitectura REST**: API para crear, listar, editar y eliminar eventos.
 - **Persistencia en Markdown**: Los eventos se guardan físicamente en el servidor organizados por fecha y hora.
 - **Contenedorización**: Configuración completa con Docker para evitar problemas de dependencias locales.
-- **Interfaz Web**: Frontend dinámico que consume la API del servidor.
+- **Interfaz Web**: Frontend dinámico que consume la API del servidor..
 
 ---
 
