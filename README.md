@@ -26,3 +26,13 @@ lab-03-daw/
 ├── .dockerignore       # Archivos excluidos del contenedor (node_modules)
 ├── package.json        # Dependencias del proyecto (Express)
 └── package-lock.json   # Registro de versiones exactas
+```
+
+## 🐳 Despliegue con Docker
+
+Sigue estos pasos para construir y ejecutar la aplicación en un contenedor aislado:
+
+### 1. Construcción de la Imagen
+Desde la raíz del proyecto (donde se encuentra el `Dockerfile`), ejecuta el siguiente comando para compilar la imagen:
+```bash
+docker build -t lab03-agenda .
