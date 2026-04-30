@@ -51,7 +51,7 @@ Se puede observar cómo Docker crea los archivos `.md` dentro de la carpeta `age
 Al presionar el botón de eliminar, el sistema borra los archivos físicos del contenedor:
 ![Eliminación de tareas](./img/eliminacion_tareas.png)
 
-## 📺 Demostración en Video
+## 📺 Demostración en Video del proyecto del presente laboratorio
 Para una explicación detallada del funcionamiento, el despliegue en Docker y la estructura del proyecto, puedes ver el siguiente video:
 
 [![Demostración del Proyecto](https://img.youtube.com/vi/40_GmMuA1Ms/0.jpg)](https://www.youtube.com/watch?v=40_GmMuA1Ms)
