@@ -41,11 +41,11 @@ docker build -t lab03-agenda .
 
 ### 1. Creación de Tareas
 Para probar el sistema, se crearon tres tareas de ejemplo mediante la interfaz web:
-![Creación de tareas](./img/creacion_tareas.png)
+![Creación de tareas](./img/creacion_tareas.jpeg)
 
 ### 2. Persistencia en el Servidor
 Se puede observar cómo Docker crea los archivos `.md` dentro de la carpeta `agenda/` automáticamente:
-![Archivos generados](./img/carpetas_agenda.png)
+![Archivos generados](./img/carpetas_agendas.png)
 
 ### 3. Eliminación de Tareas
 Al presionar el botón de eliminar, el sistema borra los archivos físicos del contenedor:
